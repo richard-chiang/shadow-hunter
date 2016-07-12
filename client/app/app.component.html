@@ -1,0 +1,4 @@
+<div class="root">
+  <dc-join-game *ngIf="!isInGame"></dc-join-game>
+  <dc-board [style.display]="!isInGame ? 'none' : 'block'"></dc-board>
+</div>

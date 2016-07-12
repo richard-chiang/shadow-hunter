@@ -1,0 +1,29 @@
+{
+  "name": "darkcorner-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "out/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "gulp && node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.16",
+    "babel-plugin-transform-es2015-spread": "^6.3.14",
+    "babel-preset-stage-3": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.10.0",
+    "typescript": "^1.7.5",
+    "ws": "^1.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.12.0"
+  }
+}

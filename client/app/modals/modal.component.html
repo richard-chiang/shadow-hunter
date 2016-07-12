@@ -1,0 +1,9 @@
+<div class="modal__wrapper" *ngIf="modalShow">
+  <div class="modal">
+    <h3>{{title}}</h3>
+    <div class="modal__body">
+      <p>{{description}}</p>
+      <dc-player-action-group [playerActions]="actionsArray"></dc-player-action-group>
+    </div>
+  </div>
+</div>

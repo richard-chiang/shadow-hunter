@@ -1,0 +1,21 @@
+.zone {
+  width: 330px;
+  height: 231px;
+  display: flex;
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+  .zone{
+    width: 396px;
+    height: 277.2px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .zone{
+    width: 462px;
+    height: 324.4px;
+  }
+}

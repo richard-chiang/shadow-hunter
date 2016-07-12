@@ -1,0 +1,6 @@
+<div class="zone__set">
+  <dc-zone *ngFor="let zone of zoneSetArray; let i = index"
+           class="zone position-{{i}}"
+           [style.transform]="i === 1 ? bottomRightRotation : (i === 2 ? bottomLeftRotation : '')"
+           [zoneArray]="zone"></dc-zone>
+</div>

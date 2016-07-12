@@ -1,0 +1,12 @@
+.damage-track {
+  display: flex;
+}
+
+.damage-track__left-lane {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.damage-track__right-lane {
+
+}

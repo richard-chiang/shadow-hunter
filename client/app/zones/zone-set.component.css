@@ -1,0 +1,44 @@
+.zone {
+  position: absolute;
+}
+
+.position-0 {
+  top: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/*.position-0 dc-zone {*/
+/*align-self: center;*/
+/*}*/
+
+.position-1 {
+  bottom: 100px;
+  right: 40px;
+}
+
+.position-2 {
+  bottom: 100px;
+  left: 40px;
+}
+
+.zone__set{
+  width: 773px;
+  height: 656px;
+  position: relative;
+}
+
+@media only screen and (min-width: 1600px) {
+  .zone__set{
+    width: 912.5px;
+    height: 765px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .zone__set{
+    width: 1050px;
+    height: 875px;
+  }
+}

@@ -1,0 +1,24 @@
+.player-list__item{
+  display:flex;
+  align-items:center;
+  width:200px;
+}
+.player-list__item__name{
+  margin-left:5px;
+}
+.active{
+  border: white solid 2px;
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .player-list__item{
+    width:300px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .player-list__item{
+    width:400px;
+  }
+}

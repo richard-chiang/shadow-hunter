@@ -1,0 +1,42 @@
+.damage-track__space {
+  position: relative;
+  width: 90px;
+  height: 60px;
+  border: solid white 2px;
+  display: flex;
+}
+
+.damage-track__token-wrapper {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.damage-track__number-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1600px) {
+  .damage-track__space {
+    width: 110px;
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .damage-track__space {
+    width: 130px;
+    height: 100px;
+  }
+}

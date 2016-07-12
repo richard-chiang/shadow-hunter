@@ -1,0 +1,12 @@
+<div class="damage-track">
+  <div class="damage-track__left-lane">
+    <dc-damage-space *ngFor="let playerArray of damageLevelsLeftLane; let i = index" [playerArray]="playerArray"
+                     [damageLevel]="i"></dc-damage-space>
+  </div>
+  <div class="damage-track__right-lane">
+    <dc-damage-space *ngFor="let playerArray of damageLevelsRightLane; let i = index" [playerArray]="playerArray"
+                     [damageLevel]="i+10"></dc-damage-space>
+  </div>
+</div>
+
+

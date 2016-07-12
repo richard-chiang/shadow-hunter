@@ -1,0 +1,23 @@
+.player-token {
+  width: 22.5px;
+  height: 22.5px;
+  border-radius: 50%;
+}
+
+.player-token--shadow{
+  box-shadow: 2px 2px 5px black;
+}
+
+@media only screen and (min-width: 1600px) {
+  .player-token {
+    width: 27.5px;
+    height: 27.5px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .player-token {
+    width: 32.5px;
+    height: 32.5px;
+  }
+}

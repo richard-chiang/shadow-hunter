@@ -1,0 +1,64 @@
+.area{
+  width:165px;
+  height:231px;
+  border:solid orangered 5px;
+  display:flex;
+  padding:20px;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+@media only screen and (min-width: 1600px) {
+  .area{
+    width: 198px;
+    height: 277.2px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .area{
+    width: 231px;
+    height: 324.4px;
+  }
+}
+
+.area::after{
+  opacity: .5;
+}
+.hermit{
+  background:url("app/zones/assets/images/hermit_cabin.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+.underworld{
+  background:url("app/zones/assets/images/underworld_gate.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.church{
+  background:url("app/zones/assets/images/church.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.altar{
+  background:url("app/zones/assets/images/altar.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.weird{
+  background:url("app/zones/assets/images/weird_woods.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.cemetery{
+  background:url("app/zones/assets/images/cemetery.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}

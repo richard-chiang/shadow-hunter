@@ -1,0 +1,13 @@
+<div class='game-board__wrapper'>
+  <div class='game-board'>
+    <dc-damage-track [playerDamageArray]="playerDamageArray"></dc-damage-track>
+    <dc-zone-set [zoneSetArray]="zoneSetArray"></dc-zone-set>
+    <div class="game-board__ui">
+      <dc-player-list></dc-player-list>
+      <dc-player-action-group [playerActions]="playerActions"></dc-player-action-group>
+    </div>
+  </div>
+</div>
+<dc-modal [data]="movementModalData" [modalShow]="showMovementModal"></dc-modal>
+
+

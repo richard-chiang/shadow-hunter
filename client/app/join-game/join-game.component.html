@@ -1,0 +1,38 @@
+<div class="ui middle aligned center aligned grid">
+  <div class="column">
+    <h2 class="ui inverted image header">
+      <div class="content">
+        Dark Corner
+      </div>
+    </h2>
+    <form class="ui large form">
+      <div class="ui stacked segment">
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="user icon"></i>
+            <input #username type="text" name="username" placeholder="Your Name">
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui left icon input">
+            <i class="puzzle icon"></i>
+            <input #server type="text" name="server" placeholder="Room Name">
+          </div>
+        </div>
+        <div class="two ui buttons">
+          <div class="ui large purple submit button" (click)="joinGame(server.value, username.value)">Join</div>
+          <div class="ui large teal submit button" (click)="createGame(server.value, username.value)">Create</div>
+        </div>
+      </div>
+
+      <div class="ui error message" [style.display]="errorMessage ? 'block' : 'none'">
+        {{errorMessage}}
+      </div>
+
+    </form>
+    <!--<div class="ui message">-->
+    <!--New to us? <a href="#">Sign Up</a>-->
+    <!--</div>
+-->
+  </div>
+</div>

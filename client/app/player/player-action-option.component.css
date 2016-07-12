@@ -1,0 +1,15 @@
+.player-action-group__option{
+  width:90px;
+  height:40px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background:rgba(234,142,234,.1);
+}
+.player-action-group__option:hover{
+  background:rgba(234,142,234,.5);
+  cursor:pointer;
+}
+

@@ -1,0 +1,44 @@
+.game-board__wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-board {
+  background: black;
+  height: 720px;
+  width: 1280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.used-cards {
+  border: dotted crimson;
+}
+
+@media only screen and (min-width: 1600px) {
+  .game-board {
+    height: 900px;
+    width: 1600px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .game-board {
+    height: 1080px;
+    width: 1920px;
+  }
+}
+
+.game-board__ui{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  height:100%;
+  padding:20px;
+}
